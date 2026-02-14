@@ -198,33 +198,7 @@ section {
   border-radius: 20px;
 }
 
-.box2 {
-  width: 100%;
-  background-color: #1e1e1e;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1.5rem;
-  border-radius: 20px;
-}
-.box2 h1 {
-  font-family: "font1";
-  font-size: 2.25rem;
-  line-height: 1.08;
-  font-weight: 300;
-  padding: 0.75rem 0 1rem 0;
-}
-.box2 h3 {
-  font-size: 1.1rem;
-  margin-bottom: 4rem;
-  font-family: "font2";
-}
-
-.box2 .para p {
-  font-size: 1.1rem;
-  line-height: 1.75rem;
-  color: gray;
-}
+.box2,
 .box4 {
   width: 100%;
   background-color: #1e1e1e;
@@ -234,6 +208,7 @@ section {
   padding: 1.5rem;
   border-radius: 20px;
 }
+.box2 h1,
 .box4 h1 {
   font-family: "font1";
   font-size: 2.25rem;
@@ -241,12 +216,14 @@ section {
   font-weight: 300;
   padding: 0.75rem 0 1rem 0;
 }
+.box2 h3,
 .box4 h3 {
   font-size: 1.1rem;
   margin-bottom: 4rem;
   font-family: "font2";
 }
 
+.box2 .para p,
 .box4 .parabox4 p {
   font-size: 1.1rem;
   line-height: 1.75rem;
@@ -276,28 +253,25 @@ section {
   
 }
 
-.sbox1{
+.sbox1,
+.sbox2,
+.sbox3 {
   width: 100%;
-  background-image: url(63d2ccbd7d003dfb6a1bdecb_team-01.webp);
   background-size: cover;
   aspect-ratio: 1/1;
   border-radius: 20px;
 }
 
-
-.sbox2{
-  width: 100%;
-  background-image: url(63d2ccbd2e12fa747e999689_team-02.webp);
-  background-size: cover;
- aspect-ratio: 1/1;
-  border-radius: 20px;
+.sbox1 {
+  background-image: url(63d2ccbd7d003dfb6a1bdecb_team-01.webp);
 }
-.sbox3{
-  width: 100%;
+
+.sbox2 {
+  background-image: url(63d2ccbd2e12fa747e999689_team-02.webp);
+}
+
+.sbox3 {
   background-image: url(63d2ccbdc1f945f817bf4fd7_team-03.webp);
-  background-size: cover;
- aspect-ratio: 1/1;
-  border-radius: 20px;
 }
 
 .textparent{
@@ -317,8 +291,8 @@ section {
   justify-content: end;
 }
 
-.icons i{
-  
+.icons i,
+.ficons i {
   background-color: rgba(255, 255, 255, .05);
   border: 1px solid rgba(255, 255, 255, .15);
   display: flex;
@@ -326,8 +300,7 @@ section {
   align-items: center;
   width: 40px;
   height: 40px;
- border-radius: 50%;
-  
+  border-radius: 50%;
 }
 
 .stext{
@@ -480,16 +453,6 @@ footer{
   
 }
 
-.ficons i{
-  background-color: rgba(255, 255, 255, .05);
-  border: 1px solid rgba(255, 255, 255, .15);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
- border-radius: 50%;
-}
 
 .pages{
   padding: 2rem;
